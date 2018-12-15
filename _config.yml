@@ -24,3 +24,13 @@ markdown: kramdown
 
 baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
+
+valine_comment:
+  enable: true
+  # app_id
+  leancloud_appid: LxzRtkkwERPwAb4pj6Se5sEY-gzGzoHsz
+  # app_key
+  leancloud_appkey: zq7XCPGugEX29KMz2VIVPFIy
+  # placeholde
+  placeholder: “Just go go"
+
