@@ -27,3 +27,17 @@ layout: default
     </div>
   </div>
 </div>
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        owner: 'rareloved',
+        repo: 'https://github.com/rareloved/rareloved.github.io.git',
+        oauth: {
+            client_id: 'b36eb626b6badfc738bf',
+            client_secret: 'ccdfe02b3d3d145c74798247c74ecf24dabcce6b',
+        },
+    });
+    gitment.render('gitmentContainer');
+</script>
